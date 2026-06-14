@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infraestructura</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Infraestructura de Internet</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="infraestructura.html">La Solicitud</a>
+        <a href="protocolos.html">Protocolos Web</a>
+    </nav>
+
+    <main>
+        <h2>¿Cómo se identifica un Servidor? Con las Direcciones IP</h2>
+        <p>Cada dispositivo conectado a Internet tiene una identificación única en el mundo conocida como <strong>Dirección IP</strong> (Internet Protocol). Son cadenas de números como por ejemplo: <code>142.250.190.46</code>.</p>
+
+        <h2>El Sistema de Nombres de Dominio (DNS)</h2>
+        <p>Como somos malísimos para recordarnos de numeros taaaan grandes, se inventó el <strong>DNS (Domain Name System)</strong>. El DNS funciona como la "agenda de contactos" para Internet.</p>
+        <p>En lugar de memorizar la IP de Google, simplemente escribes <code>google.com</code>. Los servidores DNS se encargan de traducir ese nombre legible a la dirección IP real del servidor.</p>
+
+        <h2>La Solicitud</h2>
+        <ol>
+            <li>Escribes una dirección en tu navegador (ej. <code>galileo.edu</code>) y se presiona Enter.</li>
+            <li>Tu computadora le pregunta a un <strong>Servidor DNS</strong>: <em>¿Cuál es la IP de galileo.edu?</em></li>
+            <li>El DNS responde con la dirección IP exacta del servidor de la universidad.</li>
+            <li>Nuestro navegador viaja directamente a esa IP a través de los cables de internet y le solicita los archivos visuales.</li>
+            <li>El servidor responde enviando el HTML, CSS e imágenes, y tu pantalla dibuja la página web.</li>
+        </ol>
+    </main>
+
+</body>
+</html>
